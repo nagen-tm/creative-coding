@@ -1,0 +1,27 @@
+<html>
+  <body>
+    <canvas width ="600" height="600"></canvas>
+    <script>
+      // canvas reference: https://www.w3schools.com/tags/ref_canvas.asp
+
+      // refers the the html document, selecting an element: the canvas
+      let canvas = document.querySelector('canvas');
+      // passing 2d or 3d 
+      let context = canvas.getContext('2d');
+      // filling in a rectangle, starting at 100,100 to 400,400
+      context.fillStyle = 'blue';
+      context.fillRect(100, 100, 400, 400);
+
+      // rectangle outline
+      context.lineWidth = 4;
+      context.beginPath();
+      context.rect(100,100,400,400);
+      context.stroke();
+
+      // circle
+      context.beginPath();
+      context.arc(300, 300, 100, 0, Math.PI * 2);
+      context.stroke();
+    </script>
+  </body>
+</html>
