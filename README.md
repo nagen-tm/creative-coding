@@ -1,10 +1,14 @@
 # creative-coding
 Creative Coding Domestika Course - Bruno Imbrizi
 
-Working through the course exercises:
+![uses Canvas Sketch:](https://www.npmjs.com/package/canvas-sketch)
 
-Fundamentals
-Sketch Transform
-Sketch Agents
-Sketch Noise
-Final Project
+`npm install c
+anvas-sketch-cli -g`
+
+for a new file:
+`canvas-sketch NAME.js --new`
+
+to open project:
+`canvas-sketch NAME.js --open`
+
