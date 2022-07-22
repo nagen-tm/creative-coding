@@ -1,7 +1,7 @@
 # creative-coding
 Creative Coding Domestika Course - Bruno Imbrizi
 
-![uses Canvas Sketch:](https://www.npmjs.com/package/canvas-sketch)
+[uses Canvas Sketch:](https://www.npmjs.com/package/canvas-sketch)
 
 `npm install c
 anvas-sketch-cli -g`
