@@ -6,6 +6,11 @@
 [Thonny IDE](https://thonny.org/)
 [py5 Plugin for Thonny](https://github.com/tabreturn/thonny-py5mode)
 
+### Virtual Env
+[virtualenv](https://virtualenv.pypa.io/en/latest/user_guide.html)
+
+`source venv/bin/activate`
+
 ### Install
 
 2. Creative Coding Domestika Course (Javscript) - Bruno Imbrizi
@@ -14,8 +19,7 @@
 [uses Canvas Sketch:](https://www.npmjs.com/package/canvas-sketch)
 
 ### Install
-`npm install c
-anvas-sketch-cli -g`
+`npm install canvas-sketch-cli -g`
 
 for a new file:
 `canvas-sketch NAME.js --new`
