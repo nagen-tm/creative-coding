@@ -13,7 +13,7 @@
 
 ### Install
 
-2. Creative Coding Domestika Course (Javscript) - Bruno Imbrizi
+2. Creative Coding Domestika Course (Javascript) - Bruno Imbrizi
 
 ### Documentation
 [uses Canvas Sketch:](https://www.npmjs.com/package/canvas-sketch)
