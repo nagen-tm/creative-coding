@@ -1,5 +1,6 @@
 import py5
 
+#iterate lines
 def setup():
     py5.size(980, 980)
     py5.background(240)
