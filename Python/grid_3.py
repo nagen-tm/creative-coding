@@ -41,6 +41,8 @@ def grid(margin_x, margin_y, columns, rows, total_width):
             else:
                 py5.fill(r, g, b, 64)
                 py5.circle(x, y, py5.random_int(1,2) * w/4)
+            if py5.random_int(1, 3) == 3 and w > 30:
+                grid(x - w / 2, y - w / 2, 2, 2, w)
 
 def star(cx, cy, ra, rb, np, start_ang=0):
     step = py5.TWO_PI / np
